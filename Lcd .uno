@@ -6,7 +6,7 @@ void setupLCD() {
   lcd.clear();
   lcd.print("Searching");
   lcd.setCursor(0, 1);
-  lcd.print("Network...");
+  lcd.print("Sensor data...");
   delay(3000);
 }
 
